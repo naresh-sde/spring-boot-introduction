@@ -14,10 +14,7 @@ import org.springframework.stereotype.Service;
 import java.time.LocalDateTime;
 import java.util.List;
 
-/**
- * Business logic implementation. Constructor injection (production best practice:
- * final fields, easy to test with mocks).
- */
+// Customer business logic, with its dependencies injected through the constructor.
 @Service
 public class CustomerServiceImpl implements CustomerService {
 

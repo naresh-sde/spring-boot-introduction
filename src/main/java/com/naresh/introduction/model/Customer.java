@@ -2,10 +2,7 @@ package com.naresh.introduction.model;
 
 import java.time.LocalDateTime;
 
-/**
- * Domain model. In production this would be a JPA/Hibernate entity
- * (see spring-data-jpa repo). Here a plain POJO keeps the intro focused.
- */
+// Customer domain model.
 public class Customer {
 
     private Long id;

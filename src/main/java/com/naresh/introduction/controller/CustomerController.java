@@ -9,9 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-/**
- * REST controller - web layer only. Thin: delegates to service.
- */
+// REST endpoints for customers, delegating to the service layer.
 @RestController
 @RequestMapping("/api/v1/customers")
 public class CustomerController {

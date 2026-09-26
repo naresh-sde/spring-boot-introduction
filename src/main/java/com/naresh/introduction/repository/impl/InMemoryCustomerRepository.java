@@ -10,10 +10,7 @@ import java.util.Optional;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicLong;
 
-/**
- * In-memory implementation backed by a ConcurrentHashMap.
- * Keeps the intro dependency-free; swap in JPA later without touching callers.
- */
+// Stores customers in a map, so the intro needs no database.
 @Repository
 public class InMemoryCustomerRepository implements CustomerRepository {
 

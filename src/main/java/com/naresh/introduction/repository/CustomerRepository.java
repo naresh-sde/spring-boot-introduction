@@ -5,11 +5,7 @@ import com.naresh.introduction.model.Customer;
 import java.util.List;
 import java.util.Optional;
 
-/**
- * Repository abstraction = data-access contract.
- * The service layer depends on THIS interface, not on a concrete store.
- * (Spring Data JPA replaces this with Spring Data repositories - see spring-data-jpa repo.)
- */
+// Data access contract used by the service layer.
 public interface CustomerRepository {
 
     Customer save(Customer customer);

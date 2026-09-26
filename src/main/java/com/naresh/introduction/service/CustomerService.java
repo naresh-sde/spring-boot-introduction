@@ -5,10 +5,7 @@ import com.naresh.introduction.dto.CustomerResponse;
 
 import java.util.List;
 
-/**
- * Business-logic contract. Controllers depend on this interface,
- * keeping web and business layers decoupled.
- */
+// Business operations that the controller layer depends on.
 public interface CustomerService {
 
     CustomerResponse create(CustomerRequest request);

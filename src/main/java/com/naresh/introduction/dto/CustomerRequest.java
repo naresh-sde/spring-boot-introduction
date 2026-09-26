@@ -1,8 +1,6 @@
 package com.naresh.introduction.dto;
 
-/**
- * Request DTO - input contract for create/update operations.
- */
+/** Customer data accepted from API clients. */
 public record CustomerRequest(
         String name,
         String email,

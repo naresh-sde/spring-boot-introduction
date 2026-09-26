@@ -7,11 +7,7 @@ import org.springframework.web.bind.annotation.RestControllerAdvice;
 
 import java.net.URI;
 
-/**
- * Central exception handling. @RestControllerAdvice intercepts all exceptions
- * and converts them to a consistent RFC-7807 ProblemDetail response.
- * (Deeper coverage in spring-boot-exception-handling repo.)
- */
+// Turns exceptions into RFC 7807 problem responses.
 @RestControllerAdvice
 public class GlobalExceptionHandler {
 

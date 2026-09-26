@@ -1,9 +1,6 @@
 package com.naresh.introduction.exception;
 
-/**
- * Custom business exception - a customer was not found.
- * GlobalExceptionHandler translates it into a 404 response.
- */
+// Thrown when no customer matches the given id.
 public class CustomerNotFoundException extends RuntimeException {
 
     public CustomerNotFoundException(Long id) {
